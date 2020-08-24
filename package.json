@@ -4,9 +4,8 @@
   "description": "single page app",
   "main": "index.js",
   "scripts": {
-    "build":"webpack --mode production",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
-    
   },
   "keywords": [
     "javascript"
@@ -16,9 +15,12 @@
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
     "html-webpack-plugin": "^4.3.0",
+    "materialize-css": "^1.0.0-rc.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "dependencies": {}
 }

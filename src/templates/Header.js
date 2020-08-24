@@ -1,18 +1,22 @@
 const Header  = () => {
     const view = `
-        <div class="Header-main">
-            <div lass="Header-logo">
-                <h1>
-                    <a href="/">
-                        100tifi.co
-                    </a>
-                </h1>
-            </div>
-            
-            <div class="Header-nav">
-               <a href="#/about">About</a> 
-            </div>
-        </div>
+       
+            <nav class="Header-main">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a class="brand-logo" href="/">
+                            Rick And Morty Amazing project
+                        </a>
+
+                        
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li class=""><a href="/about">About</a></li>
+                        </ul>
+                    </div>
+                    </div>
+            </nav>
+       
+
     `;
     return view;
 }

@@ -1,5 +1,5 @@
 const Error404 = () => {
-    const view = `<h2> ERROR </h2>`;
+    const view = `<h2> Página no encontrada </h2>`;
     return view;
 }
 
